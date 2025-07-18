@@ -1,0 +1,59 @@
+/* Apply Poppins font to the whole page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+}
+
+
+/*header,nav,logo,sign up*/
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+}
+nav{
+    display: flex;
+    gap: 20px;JJ
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* or 400 depending on the style you want */
+  color: #007BFF; /* Adjust to match the blue tone */
+  font-size: 20px;
+}
+
+.signup{
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    border-color: #4E47FF;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.banner{
+    text-align: center;
+
+}
+
+.banner-content{
+    font-weight: bold;
+    font-style: 1200px;
+    font-weight: 960px 152px;
+}
+.banner-button{
+    background-color: #4E47FF;
+    font-weight: 174px 48px;
+    color: white;
+    padding: 12px 24px;
+    font-size: 14px;
+    border-radius: 10px;
+    border-color: #4E47FF;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
