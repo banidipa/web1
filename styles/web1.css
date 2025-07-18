@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-color: #f4f4f4;
 }
 /*header,nav,logo,sign up*/
@@ -54,6 +54,7 @@ nav{
 }
 .main{
     background-color: #eef9fc;
+   
 }
 .first{
     display: flex;
@@ -68,6 +69,7 @@ nav{
     color: black;
     font-size: 30px;
     font-weight: 520;
+    font-family: 'Poppins', sans-serif;
 }
 .first-text{
     color: #5C5B6C;
@@ -104,6 +106,7 @@ nav{
     text-align: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
    
 }
 .productive-user-title{
@@ -135,4 +138,75 @@ nav{
     color: #000000;
     text-align: center;
     margin-top: 8px;
+}
+.review-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 520;
+}
+.review-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.review-card {
+  background-color: #fff;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+}
+
+.loved {
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #181616;
+  margin-bottom: 16px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-small {
+  text-align: left;
+}
+
+.reviewer-name {
+  font-size: 12px;
+  margin: 2px 0;
+  color: #0f0f0f;
+}
+.review-date{
+    font-size: 12px;
+    margin: 2px 0;
+    color: #817e7e; 
 }
