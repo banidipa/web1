@@ -19,7 +19,7 @@ nav{
 .logo {
   font-family: 'Poppins', sans-serif;
   font-weight: 600; /* or 400 depending on the style you want */
-  color: #007BFF; /* Adjust to match the blue tone */
+  color: #4E47FF; /* Adjust to match the blue tone */
   font-size: 20px;
 }
 .signup{
@@ -297,4 +297,40 @@ margin-top: 30px;
     padding: 16px 220px;
     cursor: pointer; 
     margin-top: 20px;
+}
+.footer-content{
+background-color: #fff;
+text-align: center;
+max-width: 100%;
+font-family:'Poppins', sans-serif ;
+margin-top: 0;
+padding: 40px 20px;
+}
+.footer-logo{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* or 400 depending on the style you want */
+  color: #4E47FF; /* Adjust to match the blue tone */
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+.footer-para{
+  color: #8987A1;
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.footer-social{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px; /* spacing between menu items */
+  margin-top: 20px;
+}
+.footer-social-content {
+  color: #8987A1;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
 }
