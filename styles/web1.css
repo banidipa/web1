@@ -247,3 +247,54 @@ max-height:30% ;
 border-radius: 30px;
 margin-top: 30px;
 }
+.basic-info{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 10px;
+    
+}
+.information{
+    font-size: 90px;
+    color: #070707;
+    text-align: left;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+.information-para{
+    font-size: 15px;
+    font-weight: 60;
+    margin-bottom: 10px
+}
+.name{
+  font-size: 16px;
+  padding: 14px; /* Add padding to center text vertically */
+  box-sizing: border-box; /* Ensure padding doesn't overflow */
+  resize: none; /* Optional: disables resize handle */
+  line-height: 1.5;
+  font-family:'Poppins', sans-serif; 
+  resize: none;
+  border-radius: 8px; /* You can change 8px to whatever curve you like */
+  border: 1px solid #ccc;
+}
+/* Target the placeholder text */
+.name::placeholder {
+  font-size: 16px; /* Match the textarea font size */
+  color: #999; /* Optional: make placeholder color lighter */
+}
+.para-name{
+  font-size: 16px;
+}
+.basic-info-btn{
+  background-color: #4E47FF;
+    font-weight: 174px 48px;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    border-color: #4E47FF;
+    padding: 16px 220px;
+    cursor: pointer; 
+    margin-top: 20px;
+}
