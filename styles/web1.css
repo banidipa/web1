@@ -297,6 +297,8 @@ margin-top: 30px;
     padding: 16px 220px;
     cursor: pointer; 
     margin-top: 20px;
+    display: flex;
+    
 }
 .footer-content{
 background-color: #fff;
@@ -305,7 +307,9 @@ max-width: 100%;
 font-family:'Poppins', sans-serif ;
 margin-top: 0;
 padding: 40px 20px;
+
 }
+
 .footer-logo{
   text-align: center;
   font-family: 'Poppins', sans-serif;
